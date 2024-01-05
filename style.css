@@ -1,0 +1,130 @@
+/* all */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.hide{
+    display: none;
+}
+
+/* header */
+.head-container{
+    width: 100%;
+    height: 160px;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    column-gap: 15px;
+    justify-content: center;
+    align-items: center;
+    color: rgb(236, 206, 182);
+    background-image: -webkit-linear-gradient(45deg,rgb(226, 160, 106),rgb(255, 115, 0));
+}
+
+.head-container svg{
+    font-size: 70px;
+}
+
+.head-container span{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Rubik Doodle Shadow', system-ui;
+}
+
+/* nav */
+nav{
+    padding: 10px;
+    background-color: rgb(245, 237, 190);
+}
+
+fieldset{
+    margin: 20px auto 5px;
+    background-color: rgb(255, 255, 255);
+}
+
+legend{
+    margin-left: 20px;
+    font-family: 'Bungee Spice', sans-serif;
+}
+
+.select-container{
+    height: 120px;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+.select-container div{
+    margin-right: 12px;
+}
+
+.select-container div input, .select-container div label{
+    cursor: pointer;
+}
+
+.nav-container{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    justify-content: space-around;
+}
+
+.nav-container a{
+    color: black;
+    background-color: white;
+    text-align: center;
+    font-family: 'Diphylleia', serif;
+    font-weight: bold;
+    margin: 2px;
+    padding: 2px 0 5px;
+    border: 3px solid rgb(255, 166, 0);
+    border-radius: 10px;
+}
+
+.nav-container a:hover{
+    background-color: blanchedalmond;
+}
+
+/* section */
+section{
+    padding: 5px;
+}
+
+section ul{
+    margin: 10px 0 10px 20px;
+    list-style-type: disc;
+}
+
+section li{
+    border: 4px groove black;
+    padding: 2px;
+    margin: 2px 0;
+}
+
+section dt{
+    font-size: 12px;
+    display: inline-block;
+    padding: 3px 8px;
+    background-color: rgb(196, 217, 255); 
+    border-radius: 5px;
+    font-family: 'Aleo', serif;
+}
+
+section dt:nth-child(1){
+    font-size: 16px;
+    background-color: rgb(252, 231, 203);
+}
+
+section dd{
+    margin: 5px;
+    font-family: 'Salsa', sans-serif;
+}
+
+section span{
+    padding: 1px 3px;
+    background-color: rgb(188, 255, 233);
+    border-radius: 5px;
+}
